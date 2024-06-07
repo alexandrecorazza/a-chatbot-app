@@ -1,5 +1,9 @@
+'use client';
+
+import Chat from './components/Chat';
+
 export default function Home() {
   return (
-    <h1> Hello AChatBot App! </h1>
+    <Chat></Chat>
   );
 }
